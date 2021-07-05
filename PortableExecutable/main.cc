@@ -6,7 +6,7 @@
  *
  *      run portable executable from memory buffer;
  */
-#include "mem.h"
+#include "mem.hh"
 #include <iostream>
 
 using namespace std;

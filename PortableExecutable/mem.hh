@@ -10,7 +10,7 @@
 
 #include <windows.h>
 #include <stdio.h>
-#include "testproc.h"
+#include "testproc.hh"
 
 typedef LONG (__stdcall *_NtUnmapViewOfSection)(HANDLE, LPVOID);
 BOOLEAN __stdcall RunPe(LPVOID);

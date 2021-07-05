@@ -7,10 +7,10 @@
  *      dynamic linking library injection with manual memory mapping, sections relocation & imports
  */
 
-#include "mem.h"
+#include "mem.hh"
 
 // this file contain binary code of target dll (code to be injected into target process)
-#include "testlib64.h"
+#include "testlib64.hh"
 
 BOOLEAN __stdcall InjectDll(HANDLE, LPVOID);
 DWORD __stdcall GetIdByName(LPCSTR szProcName);
